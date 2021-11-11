@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8BDA29B273D3B7F0095CC5A /* MC1_NegroniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BDA29A273D3B7F0095CC5A /* MC1_NegroniApp.swift */; };
+		A8BDA29D273D3B7F0095CC5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BDA29C273D3B7F0095CC5A /* ContentView.swift */; };
+		A8BDA29F273D3B800095CC5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BDA29E273D3B800095CC5A /* Assets.xcassets */; };
+		A8BDA2A2273D3B800095CC5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BDA2A1273D3B800095CC5A /* Preview Assets.xcassets */; };
+		A8BDA2AC273D3B800095CC5A /* MC1_NegroniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BDA2AB273D3B800095CC5A /* MC1_NegroniTests.swift */; };
+		A8BDA2B6273D3B800095CC5A /* MC1_NegroniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BDA2B5273D3B800095CC5A /* MC1_NegroniUITests.swift */; };
+		A8BDA2B8273D3B800095CC5A /* MC1_NegroniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BDA2B7273D3B800095CC5A /* MC1_NegroniUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8BDA2A8273D3B800095CC5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8BDA28F273D3B7F0095CC5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8BDA296273D3B7F0095CC5A;
+			remoteInfo = "MC1-Negroni";
+		};
+		A8BDA2B2273D3B800095CC5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8BDA28F273D3B7F0095CC5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8BDA296273D3B7F0095CC5A;
+			remoteInfo = "MC1-Negroni";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8BDA297273D3B7F0095CC5A /* MC1-Negroni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MC1-Negroni.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BDA29A273D3B7F0095CC5A /* MC1_NegroniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC1_NegroniApp.swift; sourceTree = "<group>"; };
+		A8BDA29C273D3B7F0095CC5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8BDA29E273D3B800095CC5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8BDA2A1273D3B800095CC5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8BDA2A7273D3B800095CC5A /* MC1-NegroniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MC1-NegroniTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BDA2AB273D3B800095CC5A /* MC1_NegroniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC1_NegroniTests.swift; sourceTree = "<group>"; };
+		A8BDA2B1273D3B800095CC5A /* MC1-NegroniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MC1-NegroniUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BDA2B5273D3B800095CC5A /* MC1_NegroniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC1_NegroniUITests.swift; sourceTree = "<group>"; };
+		A8BDA2B7273D3B800095CC5A /* MC1_NegroniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MC1_NegroniUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8BDA294273D3B7F0095CC5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BDA2A4273D3B800095CC5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BDA2AE273D3B800095CC5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8BDA28E273D3B7F0095CC5A = {
+			isa = PBXGroup;
+			children = (
+				A8BDA299273D3B7F0095CC5A /* MC1-Negroni */,
+				A8BDA2AA273D3B800095CC5A /* MC1-NegroniTests */,
+				A8BDA2B4273D3B800095CC5A /* MC1-NegroniUITests */,
+				A8BDA298273D3B7F0095CC5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8BDA298273D3B7F0095CC5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDA297273D3B7F0095CC5A /* MC1-Negroni.app */,
+				A8BDA2A7273D3B800095CC5A /* MC1-NegroniTests.xctest */,
+				A8BDA2B1273D3B800095CC5A /* MC1-NegroniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8BDA299273D3B7F0095CC5A /* MC1-Negroni */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDA29A273D3B7F0095CC5A /* MC1_NegroniApp.swift */,
+				A8BDA29C273D3B7F0095CC5A /* ContentView.swift */,
+				A8BDA29E273D3B800095CC5A /* Assets.xcassets */,
+				A8BDA2A0273D3B800095CC5A /* Preview Content */,
+			);
+			path = "MC1-Negroni";
+			sourceTree = "<group>";
+		};
+		A8BDA2A0273D3B800095CC5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDA2A1273D3B800095CC5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8BDA2AA273D3B800095CC5A /* MC1-NegroniTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDA2AB273D3B800095CC5A /* MC1_NegroniTests.swift */,
+			);
+			path = "MC1-NegroniTests";
+			sourceTree = "<group>";
+		};
+		A8BDA2B4273D3B800095CC5A /* MC1-NegroniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDA2B5273D3B800095CC5A /* MC1_NegroniUITests.swift */,
+				A8BDA2B7273D3B800095CC5A /* MC1_NegroniUITestsLaunchTests.swift */,
+			);
+			path = "MC1-NegroniUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8BDA296273D3B7F0095CC5A /* MC1-Negroni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BDA2BB273D3B800095CC5A /* Build configuration list for PBXNativeTarget "MC1-Negroni" */;
+			buildPhases = (
+				A8BDA293273D3B7F0095CC5A /* Sources */,
+				A8BDA294273D3B7F0095CC5A /* Frameworks */,
+				A8BDA295273D3B7F0095CC5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MC1-Negroni";
+			productName = "MC1-Negroni";
+			productReference = A8BDA297273D3B7F0095CC5A /* MC1-Negroni.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8BDA2A6273D3B800095CC5A /* MC1-NegroniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BDA2BE273D3B800095CC5A /* Build configuration list for PBXNativeTarget "MC1-NegroniTests" */;
+			buildPhases = (
+				A8BDA2A3273D3B800095CC5A /* Sources */,
+				A8BDA2A4273D3B800095CC5A /* Frameworks */,
+				A8BDA2A5273D3B800095CC5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8BDA2A9273D3B800095CC5A /* PBXTargetDependency */,
+			);
+			name = "MC1-NegroniTests";
+			productName = "MC1-NegroniTests";
+			productReference = A8BDA2A7273D3B800095CC5A /* MC1-NegroniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8BDA2B0273D3B800095CC5A /* MC1-NegroniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BDA2C1273D3B800095CC5A /* Build configuration list for PBXNativeTarget "MC1-NegroniUITests" */;
+			buildPhases = (
+				A8BDA2AD273D3B800095CC5A /* Sources */,
+				A8BDA2AE273D3B800095CC5A /* Frameworks */,
+				A8BDA2AF273D3B800095CC5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8BDA2B3273D3B800095CC5A /* PBXTargetDependency */,
+			);
+			name = "MC1-NegroniUITests";
+			productName = "MC1-NegroniUITests";
+			productReference = A8BDA2B1273D3B800095CC5A /* MC1-NegroniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8BDA28F273D3B7F0095CC5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A8BDA296273D3B7F0095CC5A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A8BDA2A6273D3B800095CC5A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A8BDA296273D3B7F0095CC5A;
+					};
+					A8BDA2B0273D3B800095CC5A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A8BDA296273D3B7F0095CC5A;
+					};
+				};
+			};
+			buildConfigurationList = A8BDA292273D3B7F0095CC5A /* Build configuration list for PBXProject "MC1-Negroni" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8BDA28E273D3B7F0095CC5A;
+			productRefGroup = A8BDA298273D3B7F0095CC5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8BDA296273D3B7F0095CC5A /* MC1-Negroni */,
+				A8BDA2A6273D3B800095CC5A /* MC1-NegroniTests */,
+				A8BDA2B0273D3B800095CC5A /* MC1-NegroniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8BDA295273D3B7F0095CC5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BDA2A2273D3B800095CC5A /* Preview Assets.xcassets in Resources */,
+				A8BDA29F273D3B800095CC5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BDA2A5273D3B800095CC5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BDA2AF273D3B800095CC5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8BDA293273D3B7F0095CC5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BDA29D273D3B7F0095CC5A /* ContentView.swift in Sources */,
+				A8BDA29B273D3B7F0095CC5A /* MC1_NegroniApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BDA2A3273D3B800095CC5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BDA2AC273D3B800095CC5A /* MC1_NegroniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BDA2AD273D3B800095CC5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BDA2B6273D3B800095CC5A /* MC1_NegroniUITests.swift in Sources */,
+				A8BDA2B8273D3B800095CC5A /* MC1_NegroniUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8BDA2A9273D3B800095CC5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8BDA296273D3B7F0095CC5A /* MC1-Negroni */;
+			targetProxy = A8BDA2A8273D3B800095CC5A /* PBXContainerItemProxy */;
+		};
+		A8BDA2B3273D3B800095CC5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8BDA296273D3B7F0095CC5A /* MC1-Negroni */;
+			targetProxy = A8BDA2B2273D3B800095CC5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A8BDA2B9273D3B800095CC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8BDA2BA273D3B800095CC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8BDA2BC273D3B800095CC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MC1-Negroni/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arcadia11.MC1-Negroni";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8BDA2BD273D3B800095CC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MC1-Negroni/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arcadia11.MC1-Negroni";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8BDA2BF273D3B800095CC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arcadia11.MC1-NegroniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MC1-Negroni.app/MC1-Negroni";
+			};
+			name = Debug;
+		};
+		A8BDA2C0273D3B800095CC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arcadia11.MC1-NegroniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MC1-Negroni.app/MC1-Negroni";
+			};
+			name = Release;
+		};
+		A8BDA2C2273D3B800095CC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arcadia11.MC1-NegroniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MC1-Negroni";
+			};
+			name = Debug;
+		};
+		A8BDA2C3273D3B800095CC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arcadia11.MC1-NegroniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MC1-Negroni";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8BDA292273D3B7F0095CC5A /* Build configuration list for PBXProject "MC1-Negroni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BDA2B9273D3B800095CC5A /* Debug */,
+				A8BDA2BA273D3B800095CC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BDA2BB273D3B800095CC5A /* Build configuration list for PBXNativeTarget "MC1-Negroni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BDA2BC273D3B800095CC5A /* Debug */,
+				A8BDA2BD273D3B800095CC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BDA2BE273D3B800095CC5A /* Build configuration list for PBXNativeTarget "MC1-NegroniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BDA2BF273D3B800095CC5A /* Debug */,
+				A8BDA2C0273D3B800095CC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BDA2C1273D3B800095CC5A /* Build configuration list for PBXNativeTarget "MC1-NegroniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BDA2C2273D3B800095CC5A /* Debug */,
+				A8BDA2C3273D3B800095CC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8BDA28F273D3B7F0095CC5A /* Project object */;
+}
